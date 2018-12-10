@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD7C30B021BDEFD4001F3BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C30AF21BDEFD4001F3BC1 /* AppDelegate.swift */; };
+		FD7C30B221BDEFD4001F3BC1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C30B121BDEFD4001F3BC1 /* RootViewController.swift */; };
+		FD7C30B421BDEFD4001F3BC1 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C30B321BDEFD4001F3BC1 /* DataViewController.swift */; };
+		FD7C30B621BDEFD4001F3BC1 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C30B521BDEFD4001F3BC1 /* ModelController.swift */; };
+		FD7C30B921BDEFD4001F3BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7C30B721BDEFD4001F3BC1 /* Main.storyboard */; };
+		FD7C30BB21BDEFD7001F3BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7C30BA21BDEFD7001F3BC1 /* Assets.xcassets */; };
+		FD7C30C921BDEFD7001F3BC1 /* Service_Genius_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C30C821BDEFD7001F3BC1 /* Service_Genius_LabTests.swift */; };
+		FD7C30D421BDEFD7001F3BC1 /* Service_Genius_LabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C30D321BDEFD7001F3BC1 /* Service_Genius_LabUITests.swift */; };
+		FD7C30E421BDF08B001F3BC1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7C30E321BDF08B001F3BC1 /* StoreKit.framework */; };
+		FD7C30E621BDF0B8001F3BC1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7C30E521BDF0B8001F3BC1 /* MapKit.framework */; };
+		FD7C30E821BDF17D001F3BC1 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7C30E721BDF17D001F3BC1 /* CloudKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		FD7C30EC21BDF2D1001F3BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7C30BC21BDEFD7001F3BC1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD7C30C521BDEFD7001F3BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7C30A421BDEFD4001F3BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7C30AB21BDEFD4001F3BC1;
+			remoteInfo = "Service Genius Lab";
+		};
+		FD7C30D021BDEFD7001F3BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7C30A421BDEFD4001F3BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7C30AB21BDEFD4001F3BC1;
+			remoteInfo = "Service Genius Lab";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD7C30AC21BDEFD4001F3BC1 /* Service Genius Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Service Genius Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7C30AF21BDEFD4001F3BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD7C30B121BDEFD4001F3BC1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FD7C30B321BDEFD4001F3BC1 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		FD7C30B521BDEFD4001F3BC1 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		FD7C30B821BDEFD4001F3BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD7C30BA21BDEFD7001F3BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD7C30BD21BDEFD7001F3BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD7C30BF21BDEFD7001F3BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7C30C421BDEFD7001F3BC1 /* Service Genius LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Service Genius LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7C30C821BDEFD7001F3BC1 /* Service_Genius_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service_Genius_LabTests.swift; sourceTree = "<group>"; };
+		FD7C30CA21BDEFD7001F3BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7C30CF21BDEFD7001F3BC1 /* Service Genius LabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Service Genius LabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7C30D321BDEFD7001F3BC1 /* Service_Genius_LabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service_Genius_LabUITests.swift; sourceTree = "<group>"; };
+		FD7C30D521BDEFD7001F3BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7C30E121BDF054001F3BC1 /* Service Genius Lab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Service Genius Lab.entitlements"; sourceTree = "<group>"; };
+		FD7C30E321BDF08B001F3BC1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FD7C30E521BDF0B8001F3BC1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FD7C30E721BDF17D001F3BC1 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7C30A921BDEFD4001F3BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7C30E821BDF17D001F3BC1 /* CloudKit.framework in Frameworks */,
+				FD7C30E621BDF0B8001F3BC1 /* MapKit.framework in Frameworks */,
+				FD7C30E421BDF08B001F3BC1 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7C30C121BDEFD7001F3BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7C30CC21BDEFD7001F3BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD7C30A321BDEFD4001F3BC1 = {
+			isa = PBXGroup;
+			children = (
+				FD7C30AE21BDEFD4001F3BC1 /* Service Genius Lab */,
+				FD7C30C721BDEFD7001F3BC1 /* Service Genius LabTests */,
+				FD7C30D221BDEFD7001F3BC1 /* Service Genius LabUITests */,
+				FD7C30AD21BDEFD4001F3BC1 /* Products */,
+				FD7C30E221BDF08B001F3BC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7C30AD21BDEFD4001F3BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7C30AC21BDEFD4001F3BC1 /* Service Genius Lab.app */,
+				FD7C30C421BDEFD7001F3BC1 /* Service Genius LabTests.xctest */,
+				FD7C30CF21BDEFD7001F3BC1 /* Service Genius LabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7C30AE21BDEFD4001F3BC1 /* Service Genius Lab */ = {
+			isa = PBXGroup;
+			children = (
+				FD7C30E121BDF054001F3BC1 /* Service Genius Lab.entitlements */,
+				FD7C30AF21BDEFD4001F3BC1 /* AppDelegate.swift */,
+				FD7C30B121BDEFD4001F3BC1 /* RootViewController.swift */,
+				FD7C30B321BDEFD4001F3BC1 /* DataViewController.swift */,
+				FD7C30B521BDEFD4001F3BC1 /* ModelController.swift */,
+				FD7C30B721BDEFD4001F3BC1 /* Main.storyboard */,
+				FD7C30BA21BDEFD7001F3BC1 /* Assets.xcassets */,
+				FD7C30BC21BDEFD7001F3BC1 /* LaunchScreen.storyboard */,
+				FD7C30BF21BDEFD7001F3BC1 /* Info.plist */,
+			);
+			path = "Service Genius Lab";
+			sourceTree = "<group>";
+		};
+		FD7C30C721BDEFD7001F3BC1 /* Service Genius LabTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7C30C821BDEFD7001F3BC1 /* Service_Genius_LabTests.swift */,
+				FD7C30CA21BDEFD7001F3BC1 /* Info.plist */,
+			);
+			path = "Service Genius LabTests";
+			sourceTree = "<group>";
+		};
+		FD7C30D221BDEFD7001F3BC1 /* Service Genius LabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7C30D321BDEFD7001F3BC1 /* Service_Genius_LabUITests.swift */,
+				FD7C30D521BDEFD7001F3BC1 /* Info.plist */,
+			);
+			path = "Service Genius LabUITests";
+			sourceTree = "<group>";
+		};
+		FD7C30E221BDF08B001F3BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD7C30E721BDF17D001F3BC1 /* CloudKit.framework */,
+				FD7C30E521BDF0B8001F3BC1 /* MapKit.framework */,
+				FD7C30E321BDF08B001F3BC1 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7C30AB21BDEFD4001F3BC1 /* Service Genius Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7C30D821BDEFD7001F3BC1 /* Build configuration list for PBXNativeTarget "Service Genius Lab" */;
+			buildPhases = (
+				FD7C30A821BDEFD4001F3BC1 /* Sources */,
+				FD7C30A921BDEFD4001F3BC1 /* Frameworks */,
+				FD7C30AA21BDEFD4001F3BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Service Genius Lab";
+			productName = "Service Genius Lab";
+			productReference = FD7C30AC21BDEFD4001F3BC1 /* Service Genius Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD7C30C321BDEFD7001F3BC1 /* Service Genius LabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7C30DB21BDEFD7001F3BC1 /* Build configuration list for PBXNativeTarget "Service Genius LabTests" */;
+			buildPhases = (
+				FD7C30C021BDEFD7001F3BC1 /* Sources */,
+				FD7C30C121BDEFD7001F3BC1 /* Frameworks */,
+				FD7C30C221BDEFD7001F3BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7C30C621BDEFD7001F3BC1 /* PBXTargetDependency */,
+			);
+			name = "Service Genius LabTests";
+			productName = "Service Genius LabTests";
+			productReference = FD7C30C421BDEFD7001F3BC1 /* Service Genius LabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD7C30CE21BDEFD7001F3BC1 /* Service Genius LabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7C30DE21BDEFD7001F3BC1 /* Build configuration list for PBXNativeTarget "Service Genius LabUITests" */;
+			buildPhases = (
+				FD7C30CB21BDEFD7001F3BC1 /* Sources */,
+				FD7C30CC21BDEFD7001F3BC1 /* Frameworks */,
+				FD7C30CD21BDEFD7001F3BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7C30D121BDEFD7001F3BC1 /* PBXTargetDependency */,
+			);
+			name = "Service Genius LabUITests";
+			productName = "Service Genius LabUITests";
+			productReference = FD7C30CF21BDEFD7001F3BC1 /* Service Genius LabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7C30A421BDEFD4001F3BC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = sgl;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Derreck Smallwood";
+				TargetAttributes = {
+					FD7C30AB21BDEFD4001F3BC1 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+							com.apple.ApplePay = {
+								enabled = 0;
+							};
+							com.apple.ClassKit = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					FD7C30C321BDEFD7001F3BC1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD7C30AB21BDEFD4001F3BC1;
+					};
+					FD7C30CE21BDEFD7001F3BC1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD7C30AB21BDEFD4001F3BC1;
+					};
+				};
+			};
+			buildConfigurationList = FD7C30A721BDEFD4001F3BC1 /* Build configuration list for PBXProject "Service Genius Lab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD7C30A321BDEFD4001F3BC1;
+			productRefGroup = FD7C30AD21BDEFD4001F3BC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7C30AB21BDEFD4001F3BC1 /* Service Genius Lab */,
+				FD7C30C321BDEFD7001F3BC1 /* Service Genius LabTests */,
+				FD7C30CE21BDEFD7001F3BC1 /* Service Genius LabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7C30AA21BDEFD4001F3BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7C30EC21BDF2D1001F3BC1 /* LaunchScreen.storyboard in Resources */,
+				FD7C30BB21BDEFD7001F3BC1 /* Assets.xcassets in Resources */,
+				FD7C30B921BDEFD4001F3BC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7C30C221BDEFD7001F3BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7C30CD21BDEFD7001F3BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7C30A821BDEFD4001F3BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7C30B221BDEFD4001F3BC1 /* RootViewController.swift in Sources */,
+				FD7C30B621BDEFD4001F3BC1 /* ModelController.swift in Sources */,
+				FD7C30B421BDEFD4001F3BC1 /* DataViewController.swift in Sources */,
+				FD7C30B021BDEFD4001F3BC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7C30C021BDEFD7001F3BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7C30C921BDEFD7001F3BC1 /* Service_Genius_LabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7C30CB21BDEFD7001F3BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7C30D421BDEFD7001F3BC1 /* Service_Genius_LabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD7C30C621BDEFD7001F3BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7C30AB21BDEFD4001F3BC1 /* Service Genius Lab */;
+			targetProxy = FD7C30C521BDEFD7001F3BC1 /* PBXContainerItemProxy */;
+		};
+		FD7C30D121BDEFD7001F3BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7C30AB21BDEFD4001F3BC1 /* Service Genius Lab */;
+			targetProxy = FD7C30D021BDEFD7001F3BC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD7C30B721BDEFD4001F3BC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7C30B821BDEFD4001F3BC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD7C30BC21BDEFD7001F3BC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7C30BD21BDEFD7001F3BC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD7C30D621BDEFD7001F3BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD7C30D721BDEFD7001F3BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7C30D921BDEFD7001F3BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Service Genius Lab/Service Genius Lab.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDV696KH4A;
+				INFOPLIST_FILE = "Service Genius Lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SGL.Service-Genius-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD7C30DA21BDEFD7001F3BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Service Genius Lab/Service Genius Lab.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDV696KH4A;
+				INFOPLIST_FILE = "Service Genius Lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SGL.Service-Genius-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD7C30DC21BDEFD7001F3BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDV696KH4A;
+				INFOPLIST_FILE = "Service Genius LabTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SGL.Service-Genius-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Service Genius Lab.app/Service Genius Lab";
+			};
+			name = Debug;
+		};
+		FD7C30DD21BDEFD7001F3BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDV696KH4A;
+				INFOPLIST_FILE = "Service Genius LabTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SGL.Service-Genius-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Service Genius Lab.app/Service Genius Lab";
+			};
+			name = Release;
+		};
+		FD7C30DF21BDEFD7001F3BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDV696KH4A;
+				INFOPLIST_FILE = "Service Genius LabUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SGL.Service-Genius-LabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Service Genius Lab";
+			};
+			name = Debug;
+		};
+		FD7C30E021BDEFD7001F3BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDV696KH4A;
+				INFOPLIST_FILE = "Service Genius LabUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SGL.Service-Genius-LabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Service Genius Lab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7C30A721BDEFD4001F3BC1 /* Build configuration list for PBXProject "Service Genius Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7C30D621BDEFD7001F3BC1 /* Debug */,
+				FD7C30D721BDEFD7001F3BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7C30D821BDEFD7001F3BC1 /* Build configuration list for PBXNativeTarget "Service Genius Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7C30D921BDEFD7001F3BC1 /* Debug */,
+				FD7C30DA21BDEFD7001F3BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7C30DB21BDEFD7001F3BC1 /* Build configuration list for PBXNativeTarget "Service Genius LabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7C30DC21BDEFD7001F3BC1 /* Debug */,
+				FD7C30DD21BDEFD7001F3BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7C30DE21BDEFD7001F3BC1 /* Build configuration list for PBXNativeTarget "Service Genius LabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7C30DF21BDEFD7001F3BC1 /* Debug */,
+				FD7C30E021BDEFD7001F3BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD7C30A421BDEFD4001F3BC1 /* Project object */;
+}
